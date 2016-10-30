@@ -1,0 +1,263 @@
+$BC : #d6d6d6;
+$W : #fff;
+$N : #999;
+$six : #666;
+$RS : #222;
+$C : #333;
+$Z: 0px;
+$B: #000;
+$G: #ccc;
+$BD : #d9d9d9;
+
+////////////////////////////////////
+
+
+* {
+	margin: $Z;
+	padding: $Z;
+	box-sizing:border-box;
+}
+
+h1 {
+	float: left;
+}
+
+.container li {
+	list-style:none;
+	display:inline-block;
+}
+
+.nav-right {
+	float:right;
+
+
+	ul {
+		margin-top:20px;
+
+
+		li {
+			display: inline-block;
+			margin-left : 10px;
+		}
+	}
+}
+
+.navegator {
+	background-color: #BC;
+	height: 100px;
+	padding-top:58px;
+}
+
+.container-fluid {
+	background-color: #BC;
+	height:80px;
+}
+
+.navbar-nav {
+	.active a {
+		background-color: $W;
+	}
+
+
+	li {
+		padding-top:30px;
+	}
+}
+
+
+.info {
+	h4 span {
+		color: $N;
+	}
+
+	img {
+		width: 450px;
+		height: auto;
+	}
+}
+
+section {
+	.info {
+		border-bottom: 2px solid $BC;
+		padding-bottom:30px;
+		margin-bottom:20px;
+	}
+
+	.last-info {
+		border-bottom:$Z;
+	}
+}
+
+
+.video-wrap {
+	background-color: $BC;
+	padding-bottom:20px;
+
+	p {
+		color:$six;
+
+		span {
+			color:$B;
+		}
+	}
+}
+
+.more span {
+	float:right;
+	overflow:hidden;
+}
+
+.video-text {
+	margin:10px;
+}
+
+
+section .info {
+	p {
+		color:$N;
+	}
+
+	i {
+		font-weight:bold;
+
+
+		span {
+			font-weight:normal;
+			margin-right:10px;
+			text-decoration:underline;
+		}
+	}
+}
+
+.webzone {
+	margin-top:20px;
+}
+
+.zone {
+	background-color:$RS;
+	padding:10px;
+}
+
+.qs {
+	font-weight:bold;
+	margin-left:20px;
+}
+
+.qs2 {
+	text-decoration:underline;
+}
+
+.wc3video {
+	margin:10px;
+}
+
+.number {
+	background-color: $G;
+	text-align:center;
+	height:80px;
+	font-size:25px;
+
+	p {
+		color:$B;
+	}
+}
+
+.agenda {
+	margin-top:20px;
+
+	p {
+		color:$N;
+	}
+
+	.col-lg-4 {
+		padding-left:$Z;
+	}
+
+	.row {
+		margin-top:25px;
+		border-bottom:2px solid $BC;
+	}
+
+	h4 {
+		margin: $Z;
+	}
+}
+
+
+.ccc {
+	padding:10px;
+	padding-right:100px;
+	font-size:20px;
+}
+
+.more-information {
+	h5 {
+		text-decoration:underline;
+		color:$N;
+	}
+
+	h4 {
+		color:$B;
+	}
+
+	p {
+		color: $BC;
+	}
+}
+
+.colum3 li {
+	display:blocK;
+}
+
+.bookmark {
+	padding-bottom: 20px;
+	border-bottom:2px solid $BC;
+}
+
+.magazine {
+	background-color: $BD;
+	color:$N;
+	padding:10px;
+
+	h3 {
+		margin:$Z;
+		color: $B;
+	}
+
+	h5 {
+		margin-bottom:$Z;
+	}
+
+	.eco {
+		font-weight:bold;
+	}
+}
+
+.acc {
+	margin-top:20px;
+}
+
+.gene {
+	color:$B;
+}
+
+footer {
+	color:$B;
+	margin-bottom:50px;
+
+	.container {
+		border-top:5px solid $C;
+
+		li {
+			display:block;
+		}
+	}
+}
+
+.dd2 {
+	float:left;
+}
+
+.dd1 {
+	margin-bottom:30px;
+}
